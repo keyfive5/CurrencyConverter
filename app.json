@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Currency Converter",
+    "slug": "currencyconverter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0B0F",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hasanzafar.currencyconverter",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.hasanzafar.currencyconverter",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0B0F",
+        "foregroundImage": "./assets/splash-icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A0B0F"
+        }
+      ]
+    ],
+    "owner": "keyfive",
+    "extra": {
+      "eas": {
+        "projectId": "edcd46cb-f1b9-4c8b-b099-e9d1277c70e7"
+      }
+    }
+  }
+}
