@@ -61,7 +61,17 @@ const attributes = {
   contactPhone: a.contactPhone,
   contactEmail: a.contactEmail,
   demoAccountRequired: false,
-  notes: 'Simple offline dice roller. No account or sign-in. No network requests — all data stays on device. Tap anywhere to roll; the numbered buttons at the top choose how many dice (1-6); long-press the bottom stats line to reset it.',
+  notes:
+    'Currency converter. No account, sign-in, or demo credentials needed. ' +
+    'The only network request is for a public exchange-rate table ' +
+    '(open.er-api.com); the rates are cached on device so the app keeps ' +
+    'converting with no signal, and a rate snapshot is bundled in the ' +
+    'binary for first launch. No user data is collected. ' +
+    'How to use: type an amount on the keypad and every currency in the ' +
+    'list converts at once. Tap any row to convert from that currency ' +
+    'instead; long-press a row to remove it. "+ Add currency" opens a ' +
+    'searchable list of 160+ currencies. The amount field also accepts ' +
+    'arithmetic, e.g. 48.50 x 3.',
 };
 
 let existing = null;
